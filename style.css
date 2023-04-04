@@ -1,0 +1,160 @@
+
+.logo{
+    display: flex;
+}
+
+header, main{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+}
+
+.barra{
+    list-style-type: none;
+}
+
+li {
+    display: inline-block;
+    margin-right: 20px;
+
+}
+
+.contact{
+    color: white;
+    background-color: #8B48BF;
+    border-top: 10px solid #8B48BF;
+    border-bottom: 10px solid #8B48BF;
+    border-left: 30px solid #8B48BF;
+    border-right: 30px solid #8B48BF;
+    border-radius: 15px;
+}
+
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+    margin-left: 10px;
+}
+
+.logo img {
+    height: 40px;
+    margin-right: 10px;
+}
+
+section{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.titulo{
+    font-size: xx-large;
+}
+
+.article1{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+
+.titulo1{
+    display: flex;
+    padding: 30px;
+    color: white;
+}
+
+.titulo2{
+    display: flex;
+    color: white;
+}
+
+.titulos{
+    font-weight: bold;
+}
+
+.lista3{
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+    padding: 30px;
+}
+
+.barravioleta{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: #8B48BF;
+    width: 1440px;
+}
+
+.titulo2{
+    align-self: center;
+}
+
+.jugadores{
+    display: flex;
+    width: 500px;
+    justify-content: space-around;
+
+}
+
+.info-jugadores{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.more{
+    padding: 30px;
+    align-self: center;
+    align-items: center;
+    font-weight: bolder;
+}
+
+.prefooter{
+    display: flex;
+    background-color: #8B48BF;
+    color: white;
+}
+
+.goforit{
+    color: #8B48BF;
+    background-color: #FFFFFF;
+    border-top: 10px solid #FFFFFF;
+    border-bottom: 10px solid #FFFFFF;
+    border-left: 30px solid #FFFFFF;
+    border-right: 30px solid #FFFFFF;
+    border-radius: 15px;
+}
+
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.homefooter {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.trainningfooter {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+footer{
+    background-color: #1E1E26;
+    color: white;
+}
